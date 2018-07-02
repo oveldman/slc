@@ -1,0 +1,6 @@
+[package]
+name = "random"
+version = "0.1.0"
+authors = ["Oscar Veldman <oveldman@gmail.com>"]
+
+[dependencies]

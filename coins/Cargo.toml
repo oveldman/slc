@@ -1,0 +1,20 @@
+[package]
+name = "coins"
+version = "0.1.0"
+authors = ["Oscar Veldman <oveldman@gmail.com>"]
+
+[dependencies]
+chrono = "0.4.4"
+curl = "0.4.12"
+gnuplot = "0.0.26"
+postgres = "0.15.2"
+serde = "1.0.68"
+serde_json = "1.0.22"
+serde_derive = "1.0.68"
+rocket = "0.3.14"
+rocket_codegen = "0.3.14"
+
+[dependencies.rocket_contrib]
+version = "0.3.14"
+default-features = false
+features = ["handlebars_templates", "json"]

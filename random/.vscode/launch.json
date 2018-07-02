@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug",
+            "program": "${workspaceRoot}/target/debug/${workspaceRootFolderName}",
+            "args": ["selectionsort","5,3,6,10,2,8,7"],
+            "cwd": "${workspaceRoot}",
+            "sourceLanguages": ["rust"]
+        }
+    ]
+}
